@@ -5,9 +5,10 @@
 }
 .header{
     background-color: #FFF8F3;
-    background-image: url(header_bg.png);
+    background-image: url(header_bg.png), url(developer.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right bottom, top left;
+
 }
 /* navigation */
 nav{
@@ -57,7 +58,7 @@ nav ul button{
 }
 .profile{
     width: 550px;
-    height: 676px;  
+    height: 700px;  
 }
 .beta{
     display: flex;
@@ -247,6 +248,10 @@ main{
 .hole{
     display: flex;
     justify-content: space-around;
+}
+.btn{
+    display: flex;
+    justify-content: center;
 }
 /* footer */
 .footer{
